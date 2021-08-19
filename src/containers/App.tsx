@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ResetCss from '../components/utilities/ResetCss';
 import { useTodos } from '../providers/todos/todos';
 import CreateTodo from '../components/todos/CreateTodo';
-import { forTablet,forDesktop } from '../styles/breakpoints';
+import { forDesktop } from '../styles/breakpoints';
 
 const AppWrapper = styled.main`
     width: 100%;

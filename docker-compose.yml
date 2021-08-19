@@ -1,0 +1,10 @@
+version: '2'
+
+services: 
+  on-chat:
+    container_name: "react-todo-app-by-richmond-awanzam"
+    build: .
+    environment: 
+      NODE_ENV: development
+    ports: 
+      - "3000:3000"

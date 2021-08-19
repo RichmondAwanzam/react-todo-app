@@ -28,8 +28,6 @@ export const saveTodoItem = (todoDescription: string): Todo => {
 
 export const removeTodoItem = (todoId: string): string => {
     const currentTodos = getSaveTodos();
-    const index = currentTodos.findIndex((todo) => todo.id === todoId);
-
     const remainingTodo = currentTodos.filter((todo) => todo.id !== todoId);
 
     saveTodos(remainingTodo);
