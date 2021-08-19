@@ -1,5 +1,11 @@
 # React TODO app
 
+
+## Solution Notes
+* The project was implemented in typescript to provide type safety and avoid common errors javascript errors
+* An assumption is made that a completed Todo can be update back to imcomplete
+
+
 A simple TODO application developed with React.
 
 ## Coding task
