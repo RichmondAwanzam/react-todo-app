@@ -1,12 +1,34 @@
 # React TODO app
 
+A simple TODO application developed with React.
 
 ## Solution Notes
-* The project was implemented in typescript to provide type safety and avoid common errors javascript errors
+* The project was implemented in typescript to provide type safety and avoid common javascript errors
 * An assumption is made that a completed Todo can be update back to imcomplete
 
+### Run Project
+*The App can be run normally from ```yarn && yarn install```
 
-A simple TODO application developed with React.
+OR
+* from a docker container by running ```docker-compose up``` from the project directory
+
+
+### Testing
+run ```yarn test``` to unit test this project.
+
+### Project Structre
+
+```
+--src
+    --components
+    --containers
+    --persistence
+    --providers
+    --reducers
+    --styles
+    --test
+```
+
 
 ## Coding task
 
